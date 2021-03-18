@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Real Madrid",
+    "description": "Real Madrid Squad",
+    "website": "https://www.realmadrid.com/",
+    "tags": [
+      "Santiago",
+      "Bernabéu"
+    ],
+    "type": "real"
+  },
+  {
+    "id": 2,
+    "name": "Barcelona",
+    "description": "Barcelona Squad",
+    "website": "https://www.fcbarcelona.com/",
+    "tags": [
+      "Camp Nou"
+    ],
+    "type": "real"
+
+  },
+  {
+    "id": 3,
+    "name": "Milan",
+    "description": "Milan Squad",
+    "website": "https://www.acmilan.com/",
+    "tags": [
+      "Giuseppe ",
+      "Meazza"
+    ],
+    "type": "real"
+
+  }
+]

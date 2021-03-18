@@ -1,0 +1,27 @@
+[
+    {
+        "team_id": 1,
+        "name": "Inter Milan",
+        "avg_age": 31.9
+    },
+    {
+        "team_id": 1,
+        "name": "APOEL Nicosian",
+        "avg_age": 31.7
+    },
+    {
+        "team_id": 1,
+        "name": "AC Milan",
+        "avg_age": 31.6
+    },
+    {
+        "team_id": 1,
+        "name": "Besiktas JK",
+        "avg_age": 31.9
+    },
+    {
+        "team_id": 1,
+        "name": "Olympiaco Piraeus",
+        "avg_age": 31.9
+    }
+]

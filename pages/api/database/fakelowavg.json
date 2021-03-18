@@ -1,0 +1,27 @@
+[
+    {
+        "team_id": 1,
+        "name": "Zalgiris Vilnius",
+        "avg_age": 21.1
+    },
+    {
+        "team_id": 1,
+        "name": "Arsenal FC",
+        "avg_age": 21.6
+    },
+    {
+        "team_id": 1,
+        "name": "Ajax Amsterdam",
+        "avg_age": 22.0
+    },
+    {
+        "team_id": 1,
+        "name": "FC Nantes",
+        "avg_age": 22.1
+    },
+    {
+        "team_id": 1,
+        "name": "CSKA Moscow",
+        "avg_age": 22.5
+    }
+]

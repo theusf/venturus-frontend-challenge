@@ -1,0 +1,28 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+strong {
+  color: black;
+}
+
+div[disabled] {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+option {
+  color: black;
+  font-weight: 700;
+}

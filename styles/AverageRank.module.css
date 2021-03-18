@@ -1,0 +1,38 @@
+.list__container {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.subtitle {
+    font-weight: bold;
+    color: #303030;
+    width: 100%;
+}
+
+.list__item {
+    padding: 7px 20px;
+    margin: 1px;
+    background-color: white;
+    border-radius: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    border: 2px solid white;
+
+}
+
+.list__item span {
+    color: black;
+    font-weight: 500;
+}
+
+.list__item:hover {
+    border: 2px solid #f02864;
+}

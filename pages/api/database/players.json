@@ -1,0 +1,723 @@
+[
+  {
+    "id": 1,
+    "name": "Dani Carvajal",
+    "age": 29,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Éder Militão",
+    "age": 23,
+    "nacionality": "Brasil",
+    "team_id": 1
+  },
+  {
+    "id": 3,
+    "name": "Sergio Ramos",
+    "age": 34,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Raphaël Varane",
+    "age": 27,
+    "nacionality": "França",
+    "team_id": 1
+  },
+  {
+    "id": 5,
+    "name": "Nacho",
+    "age": 31,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 6,
+    "name": "Marcelo",
+    "age": 32,
+    "nacionality": "Brasil",
+    "team_id": 1
+  },
+  {
+    "id": 7,
+    "name": "Álvaro Odriozola",
+    "age": 25,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 8,
+    "name": "Ferland Mendy",
+    "age": 25,
+    "nacionality": "França",
+    "team_id": 1
+  },
+  {
+    "id": 9,
+    "name": "Victor Chust",
+    "age": 21,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 10,
+    "name": "Miguel Ortega Gutierrez",
+    "age": 19,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 11,
+    "name": "Sergio Santos",
+    "age": 20,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 12,
+    "name": "Toni Kroos",
+    "age": 31,
+    "nacionality": "Alemanha",
+    "team_id": 1
+  },
+  {
+    "id": 13,
+    "name": "Luka Modric",
+    "age": 35,
+    "nacionality": "Croácia",
+    "team_id": 1
+  },
+  {
+    "id": 14,
+    "name": "Casemiro",
+    "age": 29,
+    "nacionality": "Brasil",
+    "team_id": 1
+  },
+  {
+    "id": 15,
+    "name": "Federico Valverde",
+    "age": 22,
+    "nacionality": "Uruguai",
+    "team_id": 1
+  },
+  {
+    "id": 16,
+    "name": "Lucas Vázquez",
+    "age": 29,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 17,
+    "name": "Isco",
+    "age": 28,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 18,
+    "name": "Marvin",
+    "age": 20,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 19,
+    "name": "Arribas",
+    "age": 19,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 20,
+    "name": "Antonio Blanco",
+    "age": 20,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 21,
+    "name": "Eden Hazard",
+    "age": 30,
+    "nacionality": "Bélgica",
+    "team_id": 1
+  },
+  {
+    "id": 22,
+    "name": "Karim Benzema",
+    "age": 33,
+    "nacionality": "França",
+    "team_id": 1
+  },
+  {
+    "id": 23,
+    "name": "Marco Asensio",
+    "age": 25,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 24,
+    "name": "Vinícius Júnior",
+    "age": 20,
+    "nacionality": "Brasil",
+    "team_id": 1
+  },
+  {
+    "id": 25,
+    "name": "Mariano",
+    "age": 27,
+    "nacionality": "Dominican Republic",
+    "team_id": 1
+  },
+  {
+    "id": 26,
+    "name": "Rodrygo",
+    "age": 20,
+    "nacionality": "Brasil",
+    "team_id": 1
+  },
+  {
+    "id": 27,
+    "name": "Hugo Duro",
+    "age": 21,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 28,
+    "name": "Oscar Aranda Subiela",
+    "age": 18,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 29,
+    "name": "Thibaut Courtois",
+    "age": 28,
+    "nacionality": "Bélgica",
+    "team_id": 1
+  },
+  {
+    "id": 30,
+    "name": "Andriy Lunin",
+    "age": 22,
+    "nacionality": "Ucrânia",
+    "team_id": 1
+  },
+  {
+    "id": 31,
+    "name": "Diego Altube",
+    "age": 21,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 32,
+    "name": "Luis López",
+    "age": 19,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 33,
+    "name": "Lucas Cañizares",
+    "age": 18,
+    "nacionality": "Espanha",
+    "team_id": 1
+  },
+  {
+    "id": 34,
+    "name": "Marc-André ter Stegen",
+    "age": 28,
+    "nacionality": "Alemanha",
+    "team_id": 2
+  },
+  {
+    "id": 35,
+    "name": "Neto",
+    "age": 31,
+    "nacionality": "Brasil",
+    "team_id": 2
+  },
+  {
+    "id": 36,
+    "name": "Iñaki Peña",
+    "age": 22,
+    "nacionality": "Espanha",
+    "team_id": 2
+  },
+  {
+    "id": 37,
+    "name": "Arnau Urena Tenas",
+    "age": 19,
+    "nacionality": "Espanha",
+    "team_id": 2
+  },
+  {
+    "id": 38,
+    "name": "Pedri",
+    "age": 18,
+    "nacionality": "Espanha",
+    "team_id": 2
+  },
+  {
+    "id": 39,
+    "name": "Ilaix Moriba",
+    "age": 18,
+    "nacionality": "Espanha",
+    "team_id": 2
+  },
+  {
+    "id": 40,
+    "name": "Ansu Fati",
+    "age": 18,
+    "nacionality": "Guinea-Bissau",
+    "team_id": 2
+  },
+  {
+    "id": 41,
+    "name": "Santiago Ramos",
+    "age": 19,
+    "nacionality": "Argentina",
+    "team_id": 2
+  },
+  {
+    "id": 42,
+    "name": "Konrad De La Fuente",
+    "age": 19,
+    "nacionality": "Estados Unidos",
+    "team_id": 2
+  },
+  {
+    "id": 43,
+    "name": "Sergiño Dest",
+    "age": 20,
+    "nacionality": "Estados Unidos",
+    "team_id": 2
+  },
+  {
+    "id": 44,
+    "name": "Óscar Mingueza",
+    "age": 21,
+    "nacionality": "Espanha",
+    "team_id": 2
+  },
+  {
+    "id": 45,
+    "name": "Alex Collado",
+    "age": 21,
+    "nacionality": "Espanha",
+    "team_id": 2
+  },
+  {
+    "id": 46,
+    "name": "Ricard Puig",
+    "age": 21,
+    "nacionality": "Espanha",
+    "team_id": 2
+  },
+  {
+    "id": 47,
+    "name": "Francisco Trincão",
+    "age": 21,
+    "nacionality": "Portugal",
+    "team_id": 2
+  },
+  {
+    "id": 48,
+    "name": "Ronald Araújo",
+    "age": 22,
+    "nacionality": "Uruguai",
+    "team_id": 2
+  },
+  {
+    "id": 49,
+    "name": "Matheus Fernandes",
+    "age": 22,
+    "nacionality": "Brasil",
+    "team_id": 2
+  },
+  {
+    "id": 50,
+    "name": "Frenkie de Jong",
+    "age": 23,
+    "nacionality": "Holanda",
+    "team_id": 2
+  },
+  {
+    "id": 51,
+    "name": "Ousmane Dembélé",
+    "age": 23,
+    "nacionality": "França",
+    "team_id": 2
+  },
+  {
+    "id": 52,
+    "name": "Júnior Firpo",
+    "age": 24,
+    "nacionality": "Espanha",
+    "team_id": 2
+  },
+  {
+    "id": 53,
+    "name": "Clément Lenglet",
+    "age": 25,
+    "nacionality": "França",
+    "team_id": 2
+  },
+  {
+    "id": 54,
+    "name": "Samuel Umtiti",
+    "age": 27,
+    "nacionality": "França",
+    "team_id": 2
+  },
+  {
+    "id": 55,
+    "name": "Philippe Coutinho",
+    "age": 28,
+    "nacionality": "Brasil",
+    "team_id": 2
+  },
+  {
+    "id": 56,
+    "name": "Sergi Roberto",
+    "age": 29,
+    "nacionality": "Espanha",
+    "team_id": 2
+  },
+  {
+    "id": 57,
+    "name": "Martin Braithwaite",
+    "age": 29,
+    "nacionality": "Dinamarca",
+    "team_id": 2
+  },
+  {
+    "id": 58,
+    "name": "Antoine Griezmann",
+    "age": 29,
+    "nacionality": "França",
+    "team_id": 2
+  },
+  {
+    "id": 59,
+    "name": "Miralem Pjanic",
+    "age": 30,
+    "nacionality": "Bósnia e Herzegovina",
+    "team_id": 2
+  },
+  {
+    "id": 60,
+    "name": "Jordi Alba",
+    "age": 31,
+    "nacionality": "Espanha",
+    "team_id": 2
+  },
+  {
+    "id": 61,
+    "name": "Sergio Busquets",
+    "age": 32,
+    "nacionality": "Espanha",
+    "team_id": 2
+  },
+  {
+    "id": 62,
+    "name": "Lionel Messi",
+    "age": 33,
+    "nacionality": "Argentina",
+    "team_id": 2
+  },
+  {
+    "id": 63,
+    "name": "Gerard Piqué",
+    "age": 34,
+    "nacionality": "Espanha",
+    "team_id": 2
+  },
+  {
+    "id": 64,
+    "name": "Ciprian Tatarusanu",
+    "age": 35,
+    "nacionality": "Romênia",
+    "team_id": 3
+  },
+  {
+    "id": 65,
+    "name": "Mattia Paloschi",
+    "age": 18,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 66,
+    "name": "Leonardo Moleri",
+    "age": 19,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 67,
+    "name": "Antonio Donnarumma",
+    "age": 30,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 68,
+    "name": "Andreas Jungdal",
+    "age": 19,
+    "nacionality": "Dinamarca",
+    "team_id": 3
+  },
+  {
+    "id": 69,
+    "name": "Gianluigi Donnarumma",
+    "age": 22,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 70,
+    "name": "Davide Calabria",
+    "age": 24,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 71,
+    "name": "Diogo Dalot",
+    "age": 21,
+    "nacionality": "Portugal",
+    "team_id": 3
+  },
+  {
+    "id": 72,
+    "name": "Alessio Romagnoli",
+    "age": 26,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 73,
+    "name": "Theo Hernández",
+    "age": 23,
+    "nacionality": "França",
+    "team_id": 3
+  },
+  {
+    "id": 74,
+    "name": "Pierre Kalulu",
+    "age": 20,
+    "nacionality": "França",
+    "team_id": 3
+  },
+  {
+    "id": 75,
+    "name": "Fikayo Tomori",
+    "age": 23,
+    "nacionality": "Inglaterra",
+    "team_id": 3
+  },
+  {
+    "id": 76,
+    "name": "Simon Kjaer",
+    "age": 31,
+    "nacionality": "Dinamarca",
+    "team_id": 3
+  },
+  {
+    "id": 77,
+    "name": "Matteo Gabbia",
+    "age": 21,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 78,
+    "name": "Nikos Michelis",
+    "age": 19,
+    "nacionality": "Grécia",
+    "team_id": 3
+  },
+  {
+    "id": 79,
+    "name": "Luca Stanga",
+    "age": 19,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 80,
+    "name": "Riccardo Oddi",
+    "age": 19,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 81,
+    "name": "Ismaël Bennacer",
+    "age": 23,
+    "nacionality": "Argélia",
+    "team_id": 3
+  },
+  {
+    "id": 82,
+    "name": "Samu Castillejo",
+    "age": 26,
+    "nacionality": "Espanha",
+    "team_id": 3
+  },
+  {
+    "id": 83,
+    "name": "Sandro Tonali",
+    "age": 21,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 84,
+    "name": "Hakan Calhanoglu",
+    "age": 27,
+    "nacionality": "Turquia",
+    "team_id": 3
+  },
+  {
+    "id": 85,
+    "name": "Jens Hauge",
+    "age": 21,
+    "nacionality": "Noruega",
+    "team_id": 3
+  },
+  {
+    "id": 86,
+    "name": "Souahilo Meïté",
+    "age": 27,
+    "nacionality": "França",
+    "team_id": 3
+  },
+  {
+    "id": 87,
+    "name": "Rade Krunic",
+    "age": 27,
+    "nacionality": "Bósnia e Herzegovina",
+    "team_id": 3
+  },
+  {
+    "id": 88,
+    "name": "Alexis Saelemaekers",
+    "age": 21,
+    "nacionality": "Bélgica",
+    "team_id": 3
+  },
+  {
+    "id": 89,
+    "name": "Franck Kessié",
+    "age": 24,
+    "nacionality": "Ivory Coast",
+    "team_id": 3
+  },
+  {
+    "id": 90,
+    "name": "Enrico Di Gesù",
+    "age": 18,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 91,
+    "name": "Antonio Mionic",
+    "age": 19,
+    "nacionality": "Croácia",
+    "team_id": 3
+  },
+  {
+    "id": 92,
+    "name": "Giacomo Olzer",
+    "age": 19,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 93,
+    "name": "Marco Frigerio",
+    "age": 19,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 94,
+    "name": "Alessio Brambilla",
+    "age": 19,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 95,
+    "name": "Mario Mandzukic",
+    "age": 34,
+    "nacionality": "Croácia",
+    "team_id": 3
+  },
+  {
+    "id": 96,
+    "name": "Zlatan Ibrahimovic",
+    "age": 39,
+    "nacionality": "Suécia",
+    "team_id": 3
+  },
+  {
+    "id": 97,
+    "name": "Ante Rebic",
+    "age": 27,
+    "nacionality": "Croácia",
+    "team_id": 3
+  },
+  {
+    "id": 98,
+    "name": "Rafael Leão",
+    "age": 21,
+    "nacionality": "Portugal",
+    "team_id": 3
+  },
+  {
+    "id": 99,
+    "name": "Brahim Díaz",
+    "age": 21,
+    "nacionality": "Espanha",
+    "team_id": 3
+  },
+  {
+    "id": 100,
+    "name": "Daniel Maldini",
+    "age": 19,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 101,
+    "name": "Riccardo Tonin",
+    "age": 20,
+    "nacionality": "Itália",
+    "team_id": 3
+  },
+  {
+    "id": 102,
+    "name": "Emil Roback",
+    "age": 17,
+    "nacionality": "Suécia",
+    "team_id": 3
+  },
+  {
+    "id": 103,
+    "name": "Andrea Capone",
+    "age": 18,
+    "nacionality": "Itália",
+    "team_id": 3
+  }
+]

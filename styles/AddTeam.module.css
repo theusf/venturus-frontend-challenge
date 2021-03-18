@@ -1,0 +1,149 @@
+.addteam_tags_card {
+    min-height: 300px;
+}
+
+.form__label {
+    font-weight: 800;
+    color: black;
+}
+
+.form__label__invalid {
+    font-weight: 800;
+    color: red;
+}
+
+.form__section__margin {
+    margin-top: 40px;
+}
+
+.form__input {
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.form__input__invalid {
+    border-radius: 5px;
+    border: 1px solid red;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+
+}
+
+.form__teamTypes__container {
+    padding: 10px;
+}
+
+.section__subtitle {
+    font-weight: bold;
+    color: darkgray;
+    width: 100%;
+    text-align: center;
+}
+
+.form__select__input {
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.form__select__input__invalid {
+    border-radius: 5px;
+    border: 1px solid red;
+    width: 30%;
+    margin: 10px;
+
+}
+
+.form__submit__button {
+    background-image: linear-gradient(0deg, rgba(127, 43, 123, 1) 37%, rgba(162, 59, 140, 1) 100%);
+    width: 500px;
+    height: 50px;
+}
+
+.form__team__formation {
+    background-image: linear-gradient(0deg, rgba(127, 43, 123, 1) 37%, rgba(162, 59, 140, 1) 100%);
+    width: 500px;
+    height: 700px;
+    margin-bottom: 20px;
+}
+
+
+
+.form__tags__container {
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    min-height: 200px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.form__input__invisible {
+    border: 0px solid lightgrey;
+}
+
+.form__input__invisible:focus {
+    outline: none;
+}
+
+.form__input:focus {
+    outline: none;
+}
+
+.tags {
+    margin-right: 5px;
+}
+
+.form__player__container {
+    background: linear-gradient(0deg, rgba(226, 226, 226, 1) 9%, rgba(252, 252, 252, 1) 100%);
+    padding: 20px;
+    margin: 15px 0px;
+    outline: 2px dashed #ededed;
+    color: #f2295b;
+}
+
+.form__player__container:-moz-drag-over {
+    opacity: 1;
+}
+
+.form__container {
+    margin: 0px 100px;
+}
+
+.form__player__container__info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .form__container {
+        margin: 0px 0px;
+    }
+    .form__team__formation {
+        background-image: linear-gradient(0deg, rgba(127, 43, 123, 1) 37%, rgba(162, 59, 140, 1) 100%);
+        width: 350px;
+        height: 700px;
+        margin-bottom: 20px;
+        margin-left: -50px;
+    }
+    .form__submit__button {
+        background-image: linear-gradient(0deg, rgba(127, 43, 123, 1) 37%, rgba(162, 59, 140, 1) 100%);
+        width: 350px;
+        margin-left: -50px;
+
+    }
+    
+}
+
+.form__player__container:disabled {
+    opacity: 0.5;
+    background-color: red;
+}

@@ -1,0 +1,105 @@
+.centered__contaier {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: block;
+    position: relative;
+}
+
+.centered__contaier:after {
+    content: "";
+    background: url('../public/campline.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.players__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.player__avatar {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 100px;
+    box-shadow: 5px 5px 46px 10px #532D8C;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.player__avatar__initials {
+    font-size: 100px;
+    color: white;
+}
+
+.player__avatar__border {
+    padding: 4px;
+    margin-top: 10px;
+    border-radius: 100px;
+    width: 12em;
+    height: 12em;
+    z-index: 2;
+    background-color: #f2295b;
+}
+
+.player__avatar__border:hover {
+    border: 2px dashed #ededed;
+    margin-top: 10px;
+    background-color: #f2295b;
+    padding: 4px;
+    border-radius: 100px;
+    width: 12em;
+    height: 12em;
+    z-index: 2;
+}
+
+.player__avatar__container__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.player__avatar__container__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.player__title {
+    color: white;
+    margin-left: -40px;
+
+}
+
+.player__percentege__subtitle {
+    color: white;
+    border-bottom: 1px solid white;
+    padding-right: 2rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .centered__contaier:after {
+        background: url('../public/campline-horizontal.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        opacity: 0.2;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: 1;
+    }
+}

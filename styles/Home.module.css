@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  place-items: center;
+  background-color: #fff3f4;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  margin-top: auto;
+  width: 95vw;
+  place-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    margin-top: 5rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .main {
+    margin-top: 5rem;
+  }
+}
