@@ -1,34 +1,136 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
 
-## Getting Started
+<img alt="Logo" src="https://github.com/theusf/venturus-frontend-challenge/blob/docs/public/showcase.png?raw=true" width="800px" /> 
+</h1>
 
-First, run the development server:
+<h3 align="center">
+  Squad managment tool   ⚽📋
+</h3>
+
+<p align="center">
+ 
+<img alt="Logo" src="https://www.venturus.org.br/wp-content/uploads/2020/12/Simbolo_Colorido.png" width="50px" /> 
+ Venturus Frontend Challenge
+ 
+</p>
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/theusf/venturus-frontend-challenge">
+
+  <a href="https://www.linkedin.com/in/mathfranciscosantos/">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Matheus%20Francisco-gree">
+  </a>
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/theusf/venturus-frontend-challenge">
+
+  <img alt="GitHub" src="https://img.shields.io/github/license/theusf/venturus-frontend-challenge">
+</p>
+
+<p align="center">
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
+
+## 👨🏻‍💻 About the project
+
+- <p style="color: red;">Website to manage teams developed to venturus frontend challenge</p>
+
+###  Features
+
+- Add and delete teams
+- Top 5  highest and lowest age average team
+- Top most picked and less picked soccer player
+
+## 🚀 Technologies
+
+Technologies that I used to develop this web client
+
+- [ReactJS](https://reactjs.org/)
+- [NextJS](https://nextjs.org/)
+- [MATERIAL-UI](https://nextjs.org/)
+- [React Hook Form](https://react-hook-form.com/)
+
+### Abaout the Development
+
+### Why NextJS was perfect for this website
+
+- Next Built in API
+- Easy routing with next router and pages folder
+- CSS Modules who avoid css conflicts
+- Next built in dev mode and production mode
+
+### Why material ui
+
+- Easy production ready components and theme colors managment.
+
+## 💻 Getting started
+
+### Requirements
+
+- Have [NodeJS](https://nodejs.org/) installed on machine.
+- Npm or yan installed on machine.
+
+**Clone the project and access the folder**
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/theusf/venturus-frontend-challenge.git && cd venturus-frontend-challenge
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Follow the steps below**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+# Install the dependencies
+$ yarn
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Start the website in dev mode
+$ yarn dev
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#or 
 
-## Learn More
+# Start the webstie in production mode
+$ yarn build && $ yarn start
 
-To learn more about Next.js, take a look at the following resources:
+# Access the website in browser
+https://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🤔 How to contribute
 
-## Deploy on Vercel
+**Make a fork of this repository**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# Fork using GitHub official command line
+# If you don't have the GitHub CLI, use the web site to do that.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+$ gh repo fork theusf/venturus-frontend-challenge.git
+```
+
+**Follow the steps below**
+
+```bash
+# Clone your fork
+$ git https://github.com/theusf/venturus-frontend-challenge.git && cd venturus-frontend-challenge
+
+# Create a branch with your feature
+$ git checkout -b my-feature
+
+# Make the commit with your changes
+$ git commit -m 'feat: My new feature'
+
+# Send the code to your remote branch
+$ git push origin my-feature
+```
+
+After your pull request is merged, you can delete your branch
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+
+Made with 💚<span style="color: green;"> &nbsp;by Matheus Francisco</span>
