@@ -1,6 +1,6 @@
 <h1 align="center">
 
-<img alt="Logo" src="https://github.com/theusf/venturus-frontend-challenge/blob/docs/public/showcase.png?raw=true" width="500px" /> 
+<img alt="Logo" src="https://github.com/theusf/venturus-frontend-challenge/blob/docs/public/showcase.png?raw=true" width="800px" /> 
 </h1>
 
 <h3 align="center">
