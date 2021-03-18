@@ -32,9 +32,7 @@ export default function Home() {
       </main>
 
 
-      <footer className={styles.footer}>
-        <p>Feito com 💚 por <a href="https://github.com/theusf">Matheus Francisco</a></p>
-      </footer>
+     
 
     </div>
   )

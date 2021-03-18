@@ -13,16 +13,17 @@ export default function index() {
     const { register, handleSubmit, errors, setValue } = useForm(); // initialise the hook
     const [teamTypeValue, setTeamTypeValue] = useState('real');
     const [teamTags, setTeamTags] = useState(['team-tag'])
-    const [teamPlayers, setTeamPlayers] = useState([])
+    const [AllPlayers, setAllPlayers] = useState([])
     const [team, setTeam] = useState()
-    const [filtredPlayers, setFiltredPlayers] = useState(teamPlayers)
+    const [filtredPlayers, setFiltredPlayers] = useState(AllPlayers)
+    const [selectedPlayers, setSelectedPlayers] = useState([])
 
     useEffect(async () => {
         const { teamid } = router.query
 
         const url = (teamid ? `/api/players?teamid=${teamid}` : '/api/players')
         const players = await fetch(url).then((ret) => ret.json())
-        setTeamPlayers(players)
+        setAllPlayers(players)
         setFiltredPlayers(players.slice(0, 5))
 
         if (teamid) {
@@ -36,15 +37,13 @@ export default function index() {
     }, [])
 
     useEffect(() => {
-        setFiltredPlayers(teamPlayers.slice(0, 5))
-    }, [teamPlayers])
+        setFiltredPlayers(AllPlayers.slice(0, 5))
+    }, [AllPlayers])
 
     const handleDragStart = (e, player_id) => {
         e.dataTransfer.setData('player_id', player_id);
     };
 
-    const handleDragEnter = (e, position) => {
-    };
 
     const handleDragOver = (e) => {
         e.dataTransfer.dropEffect = "move";
@@ -53,6 +52,7 @@ export default function index() {
 
     const onSubmit = (data) => {
         console.log(data);
+        alert(`${JSON.stringify(data)} ${JSON.stringify(selectedPlayers)}`)
     };
 
     const onChangeValue = (event) => {
@@ -85,18 +85,23 @@ export default function index() {
         if (value === '')
             return setFiltredPlayers([])
         const regex = new RegExp(value, 'i')
-        setFiltredPlayers(teamPlayers.filter(player => regex.test(player.name)))
+        setFiltredPlayers(AllPlayers.filter(player => regex.test(player.name)))
     }
 
     const handleDisablePlayer = (player) => {
-        const aux = teamPlayers.map(value => {
-            if (player.id == value.id)
-                value.disabled = true;
+        const selected_players_copy = selectedPlayers
 
+        const aux = AllPlayers.map(value => {
+            if (player.id == value.id) {
+                value.disabled = true;
+                selected_players_copy.push(value)
+            }
+              
             return value
         })
 
-        setTeamPlayers(aux)
+        setAllPlayers(aux)
+        setSelectedPlayers([...selected_players_copy])
     }
 
 
@@ -205,7 +210,7 @@ export default function index() {
 
 
                             <div className={addTeamStyles.form__team__formation}>
-                                <TeamFormation players={teamPlayers} handleDisablePlayer={handleDisablePlayer} />
+                                <TeamFormation players={AllPlayers} handleDisablePlayer={handleDisablePlayer} />
                             </div>
 
                             <Button className={addTeamStyles.form__submit__button} type="submit" variant="contained" color="primary">
@@ -223,9 +228,8 @@ export default function index() {
                                 Search player
                             </label>
                             <input
-                                name="players"
+                                name="search players"
                                 placeholder="Ronal.."
-                                ref={register({ required: true })}
                                 className={addTeamStyles.form__input}
                                 onChange={handleSearchChange}
                             />
@@ -239,7 +243,6 @@ export default function index() {
                                                 draggable
                                                 className={addTeamStyles.form__player__container}
                                                 onDragStart={(e) => handleDragStart(e, player.id)}
-                                                onDragEnter={(e) => handleDragEnter(e, player.id)}
                                                 onDragOver={handleDragOver}
                                                 disabled={player.disabled}
                                             >

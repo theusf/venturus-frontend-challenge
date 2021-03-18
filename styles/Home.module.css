@@ -23,6 +23,8 @@
   color:black;
   background-color: #f0e4ec;
   font-size: 10px;
+  bottom: 0;
+  position: fixed;
 }
 
 .footer a {
